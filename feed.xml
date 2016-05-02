@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DIPS | Tech</title>
+    <description>Velkommen til DIPS ASAs tech-blogg! DIPS ASA er Norges største leverandør av e-helse systemer og vi er et av Norges største programvarehus.
+På bloggen vil flere av våre 120 dyktige utviklere gi oss innblikk i noen av de tekniske problemstillingene vi står ovenfor på veien mot å lage verdens beste e-helse system.
+</description>
+    <link>http://tech.dips.no/</link>
+    <atom:link href="http://tech.dips.no/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 02 May 2016 12:16:54 +0200</pubDate>
+    <lastBuildDate>Mon, 02 May 2016 12:16:54 +0200</lastBuildDate>
+    <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>Håndtering av avhengigheter med Paket</title>
+        
+		<description>&lt;p&gt;I DIPS benytter vi, som alle andre .NET sjapper, NuGet som pakkebehandler og integrasjonspunkt. Vi bruker NuGet til å pakke alt fra tredjepartsavhengigheter til interne biblioteker, felles kontrakter og utillitykode. Vi bruker til og med NuGet til å pakke brukerdokumentasjonen vår (skrevet i &lt;a href=&quot;http://www.methods.co.nz/asciidoc/&quot;&gt;AsciiDoc&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;NuGet fungerer utmerket til det aller meste, men har også sine klare svakheter. Blant annet kan det fort bli vanskelig å holde oversikt over hvilke pakker og versjoner som gjelder på tvers av produkter og moduler.&lt;/p&gt;
+
+&lt;p&gt;Sommeren 2015 kom vi over &lt;a href=&quot;https://fsprojects.github.io/Paket/&quot;&gt;Paket&lt;/a&gt;. Paket er en kryssplattform  avhengighetshåndterer som fungerer som et overbygg over NuGet. Prosjektet er &lt;a href=&quot;https://github.com/fsprojects/Paket&quot;&gt;open source&lt;/a&gt;, skrevet i F# av &lt;a href=&quot;https://github.com/forki&quot;&gt;Steffen Forkmann&lt;/a&gt; som blant annet står bak det utmerkete byggesystemet &lt;a href=&quot;https://github.com/fsharp/FAKE&quot;&gt;FAKE&lt;/a&gt;. Så hva kan Paket tilby oss som ikke NuGet allerede gjør?&lt;/p&gt;
+
+</description>
+	
+        
+        <image>
+        
+		https://cdn.rawgit.com/fsprojects/Paket/master/docs/files/img/logo.png
+	
+       	</image>
+        
+        <pubDate>Wed, 09 Mar 2016 00:00:00 +0100</pubDate>
+        <link>http://tech.dips.no/2016/03/09/paket.html</link>
+        <guid isPermaLink="true">http://tech.dips.no/2016/03/09/paket.html</guid>
+        
+        <category>CSharp</category>
+        
+        <category>NuGet</category>
+        
+        <category>Avhengigheter</category>
+        
+        <category>Devops</category>
+        
+        <category>FSharp</category>
+        
+        <category>Paket</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Code Contracts i .NET</title>
+        
+		<description>&lt;p&gt;I DIPS har vi en stund hatt litt diskusjon rundt ulike former for enhetstesting. Vi bruker enhetstesting i stor grad i våre prosjekter, men med varierende detaljnivå. Utfordringen her er at enhetstester som opererer på lave detaljnivåer er kostbare å vedlikeholde, selv om de kanskje gir god code coverage. Men hva med &lt;a href=&quot;https://coding.abel.nu/2014/07/code-coverage-functional-coverage/&quot;&gt;functional coverage&lt;/a&gt;? Kanskje får man dette med på kjøpet, kanskje ikke. Det kommer an på hvor flink man er til å skrive gode tester.&lt;/p&gt;
+
+</description>
+	
+        
+        <pubDate>Wed, 24 Feb 2016 00:00:00 +0100</pubDate>
+        <link>http://tech.dips.no/2016/02/24/code-contracts.html</link>
+        <guid isPermaLink="true">http://tech.dips.no/2016/02/24/code-contracts.html</guid>
+        
+        <category>CSharp</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>TDC 2015: Kryssplattform C# med Vagrant og Docker</title>
+        
+		<description>&lt;p&gt;Et av de beste tilbudene man får som utvikler i Trondheim, er &lt;a href=&quot;http://2015.trondheimdc.no/&quot;&gt;Trondheim Developer Conference&lt;/a&gt;. I fjor gikk TDC av stabelen for fjerde året på rad. Jeg var så heldig å stå på lista over foredragsholdere, som også inkluderte store internasjonale navn som &lt;a href=&quot;http://www.hanselman.com/&quot;&gt;Scott Hanselman&lt;/a&gt;, &lt;a href=&quot;http://blah.winsmarts.com/&quot;&gt;Sahil Malik&lt;/a&gt;, &lt;a href=&quot;http://seb.ly/&quot;&gt;Seb Lee-Delisle&lt;/a&gt; og &lt;a href=&quot;http://odetocode.com/about/scott-allen&quot;&gt;Scott Allen&lt;/a&gt;. Det var stort å få gjøre sin debut som foredragsholder på samme scene som disse dyktige folkene!&lt;/p&gt;
+
+</description>
+	
+        
+        <image>
+        
+		http://i.imgur.com/bJeyynv.jpg
+	
+       	</image>
+        
+        <pubDate>Wed, 10 Feb 2016 00:00:00 +0100</pubDate>
+        <link>http://tech.dips.no/2016/02/10/tdc.html</link>
+        <guid isPermaLink="true">http://tech.dips.no/2016/02/10/tdc.html</guid>
+        
+        <category>TDC</category>
+        
+        <category>Vagrant</category>
+        
+        <category>Docker</category>
+        
+        <category>Devops</category>
+        
+        <category>CSharp</category>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
